@@ -1,0 +1,175 @@
+body {
+	background-color:#fff;
+	line-height: 24px;
+	font-family: 'Roboto', sans-serif;
+}
+h1, h2, h3, h4, h5, h6, p, a, ul, li, span {
+	padding:0;
+	margin:0;
+}
+a {
+	transition:all 300ms;
+}
+a:hover, a:focus {
+	text-decroration:none;
+	outline:none;
+}
+
+
+/* header starts here ------------------------ */
+.header {
+	padding:4px 0;
+}
+.header .navbar-default {
+	background:transparent;
+	border:0;
+}
+.header .navbar-nav > li > a {
+	color:#393939;
+	font-size:18px;
+	text-transform:capitalize;
+	padding:42px 38px 0 38px;
+	font-weight:500;
+}
+.header .navbar-nav > li:nth-child(3) a {
+	padding-right:0;
+}
+
+/* header ends here -------------------------- */
+
+
+/* footer starts here ------------------------ */
+.footer {
+	background-color:#393939;
+	padding:62px 0 26px 0;
+}
+.footer .footer-detail-box h3 {
+	color:#fff;
+	font-size:16px;
+	font-weight:500;
+	line-height: 16px;
+	padding:3px 0 25px 0;
+}
+.footer .footer-detail-box ul li {
+	display: inline-block;
+	width:100%;
+	padding-bottom:20px;
+	line-height: 16px;
+}
+.footer .footer-detail-box ul li a {
+	color:#ccc;
+	font-size:16px;
+	font-weight:300;
+	line-height: 16px;
+}
+.footer .footer-logo {
+	display: inline-block;
+}
+.footer .house-listed-detail {
+	padding:25px 0;
+}
+.footer .house-listed-detail h4 {
+	font-size:16px;
+	font-weight:500;
+	color:#fff;
+	width:55%;
+}
+.footer .house-listed-detail h4:first-child {
+	width:42%;
+}
+.footer .house-listed-detail h4 > span {
+	display: inline-block;
+	width: 100%;
+	font-weight:300;
+	padding:5px 0 0 0;
+}
+.footer .footer-social-media li {
+	display: inline-block;
+	margin:25px 0 0 5px;
+}
+.footer .footer-social-media li a {
+	display: inline-block;
+	width:32px;
+	background-color:#fff;
+	border-radius:2px;
+	text-align: center;
+	line-height: 28px;
+}
+.footer .footer-social-media li a i {
+	color:#393939;
+	font-size: 20px;
+	padding:8px 0 0 0;
+}
+.footer .footer-social-media li a:hover {
+	background-color:#1e7ee6;
+}
+.footer .footer-social-media li a:hover i {
+	color:#fff;
+}
+.footer .copyright-text {
+	text-align: center;
+	font-size:16px;
+	padding:40px 0 0 0;
+	color:#fff;
+}
+/* footer ends here -------------------------- */
+
+@media ( max-width:1199px ){
+	.footer .house-listed-detail h4 > span {
+		font-size:14px;
+	}
+
+}
+
+@media ( max-width:991px ) {
+	.header .navbar-nav > li > a {
+		padding:42px 25px 0 25px;
+	}
+	.footer .house-listed-detail h4 {
+		width:100% !important;
+		padding-bottom: 8px;
+	}
+	.footer .footer-social-media li {
+		margin-top:0;
+	}
+
+}
+
+@media ( max-width:767px ) {
+	.header .navbar-brand {
+		padding:0;
+	}
+	.header .navbar-default .navbar-toggle {
+		background-color:#1e7ee6;
+		border-color:#fff;
+	}
+	.header .navbar-default .navbar-toggle .icon-bar {
+		background-color:#fff;
+	}
+	.header .navbar-toggle {
+		margin:20px 0 0 0;
+	}
+	.header .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+		margin-top: 20px;
+	}
+	.header .navbar-nav {
+		background-color:#1e7ee6;
+	}
+	.header .navbar-nav > li > a {
+		padding:10px;
+		color:#fff;
+	}
+	.footer .footer-logo {
+		margin-top:20px;
+	}
+
+}
+
+@media ( max-width:479px ) {
+	.footer .footer-detail-box {
+		width:100%;
+		
+	}
+
+
+}
